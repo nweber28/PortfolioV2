@@ -112,5 +112,18 @@ body.dark-mode a {
 }
 
 .card-body:hover {
-  transform: rotate(2deg);
+  background-color: lightslategray;
+}
+
+#techStack {
+  list-style: none;
+  padding: 0;
+}
+
+#techStack > li {
+  background-color: #7ec0ee;
+  border-radius: 50% / 100%;
+  margin-right: 0.375rem;
+  margin-top: 0.5rem;
+  display: inline-block;
 }
