@@ -85,7 +85,7 @@ body.dark-mode section {
 
 /* Dark mode link styles */
 body.dark-mode a {
-  color: #03a9f4; /* Light blue for links in dark mode */
+  color: black; /* Light blue for links in dark mode */
 }
 
 /* Add a class to enable or disable dark mode */
@@ -100,4 +100,17 @@ body.dark-mode a {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
   gap: 20px;
+}
+
+.card-body {
+  color: black;
+  background-color: grey;
+}
+
+#darkModeBtn {
+  color: lightcoral;
+}
+
+.card-body:hover {
+  transform: rotate(2deg);
 }
