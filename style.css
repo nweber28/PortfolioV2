@@ -24,6 +24,10 @@ body.dark-mode {
   color: #fff;
 }
 
+header > a {
+  color: blue;
+}
+
 /* Header */
 header {
   background-color: #333;
@@ -85,7 +89,7 @@ body.dark-mode section {
 
 /* Dark mode link styles */
 body.dark-mode a {
-  color: black; /* Light blue for links in dark mode */
+  color: white; /* Light blue for links in dark mode */
 }
 
 /* Add a class to enable or disable dark mode */
