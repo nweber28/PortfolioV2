@@ -134,4 +134,11 @@ body.dark-mode a {
 
 #titleNav {
   padding-top: 30%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+#titleNav > li {
+  display: flex;
+  align-content: flex-start;
 }
