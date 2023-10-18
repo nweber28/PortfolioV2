@@ -131,3 +131,7 @@ body.dark-mode a {
   margin-top: 0.5rem;
   display: inline-block;
 }
+
+#titleNav {
+  padding-top: 30%;
+}

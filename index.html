@@ -14,23 +14,24 @@
   <body>
     <div class="container">
       <div class="row">
-        <header class="col d-flex">
+        <header class="col d-flex flex-column" id="leftContainer">
           <div
-            class="dark-mode-toggle col d-flex"
+            class="dark-mode-toggle"
             id="darkModeBtn"
             onclick="toggleDarkMode()"
           >
             Toggle Dark Mode
           </div>
-          <h1>Nick Weber</h1>
-          <nav>
-            <ul>
-              <li><a href="#about">About</a></li>
-
-              <li><a href="#coding-projects">Coding Projects</a></li>
-              <li><a href="#contact">Contact</a></li>
-            </ul>
-          </nav>
+          <div id="titleNav">
+            <h1>Nick Weber</h1>
+            <nav>
+              <ul class="col d-flex flex-column">
+                <li><a href="#about">About</a></li>
+                <li><a href="#coding-projects">Coding Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+              </ul>
+            </nav>
+          </div>
         </header>
         <div id="sectionContainer" class="col d-flex">
           <div class="container">
