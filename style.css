@@ -124,12 +124,14 @@ body.dark-mode a {
   padding: 0;
 }
 
-#techStack > li {
+#techStack > li,
+#techStack > a {
   background-color: #7ec0ee;
   border-radius: 50% / 100%;
   margin-right: 0.375rem;
   margin-top: 0.5rem;
   display: inline-block;
+  color: black;
 }
 
 #titleNav {
