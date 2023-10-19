@@ -36,18 +36,17 @@ header {
 }
 
 header h1 {
-  font-size: 36px;
+  font-size: 3rem;
   color: #fff;
+}
+
+header h3 {
+  font-size: 1.25rem;
 }
 
 /* Navigation */
 nav ul {
   list-style: none;
-}
-
-nav ul li {
-  display: inline;
-  margin: 0 10px;
 }
 
 nav a {
@@ -140,6 +139,7 @@ body.dark-mode a {
   flex-direction: column;
   gap: 20px;
 }
+
 #titleNav > li {
   display: flex;
   align-content: flex-start;
