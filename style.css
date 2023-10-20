@@ -144,3 +144,8 @@ body.dark-mode a {
   display: flex;
   align-content: flex-start;
 }
+
+#socialIcons > svg {
+  width: 35px;
+  height: 35px;
+}
