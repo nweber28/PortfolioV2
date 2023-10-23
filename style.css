@@ -10,18 +10,7 @@ body {
   font-family: Arial, sans-serif;
   padding: 20px;
   transition: background-color 0.3s, color 0.3s;
-}
-
-/* Light mode */
-body.light-mode {
-  background-color: #fff;
-  color: #333;
-}
-
-/* Dark mode */
-body.dark-mode {
-  background-color: #333;
-  color: #fff;
+  background-color: rgb(0, 22, 40) !important;
 }
 
 header > a {
@@ -30,7 +19,6 @@ header > a {
 
 /* Header */
 header {
-  background-color: #333;
   text-align: center;
   padding: 20px 0;
 }
@@ -57,7 +45,6 @@ nav a {
 
 /* Sections */
 section {
-  background-color: #fff;
   padding: 20px;
   margin: 20px 0;
   border-radius: 5px;
@@ -80,25 +67,6 @@ footer {
   padding: 10px 0;
 }
 
-/* Dark mode styles */
-body.dark-mode header,
-body.dark-mode section {
-  background-color: #000; /* Darken header and sections */
-}
-
-/* Dark mode link styles */
-body.dark-mode a {
-  color: white; /* Light blue for links in dark mode */
-}
-
-/* Add a class to enable or disable dark mode */
-.dark-mode-toggle {
-  cursor: pointer;
-  position: absolute;
-  top: 20px;
-  right: 20px;
-}
-
 .card-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
@@ -108,10 +76,6 @@ body.dark-mode a {
 .card-body {
   color: black;
   background-color: grey;
-}
-
-#darkModeBtn {
-  color: lightcoral;
 }
 
 .card-body:hover {
@@ -152,4 +116,10 @@ body.dark-mode a {
 
 #bio {
   margin: 0;
+}
+
+h4,
+h2,
+#bio {
+  color: rgb(104, 162, 185);
 }
