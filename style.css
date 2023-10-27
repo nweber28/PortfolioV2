@@ -124,6 +124,7 @@ footer {
 #bio {
   margin: 0;
   padding-top: 0;
+  font-size: 1.2rem;
 }
 
 h4,
@@ -133,11 +134,14 @@ h2,
 }
 
 #sectionContainer {
-  width: 50%; /* Half of the screen width */
   overflow-y: scroll; /* Enable vertical scrolling */
   height: 100vh; /* Full viewport height */
 }
 
 #sections {
   padding-top: 20%;
+}
+
+#leftContainer {
+  padding-bottom: 2%;
 }
